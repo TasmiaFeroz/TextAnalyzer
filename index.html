@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <script>
+        let a=3;
+        console.log(a);
+        function hello(){
+            console.log("hi miya");
+        }
+        let detail = {
+            roll:12,
+            id:10,
+            fun: function myfunct(number){
+                console.log(" this number" +number);
+            }
+        }
+        document.addEventListener("click", function click(){
+            console.log("clicked");
+          //  alert("clicked");
+            let conf= confirm("are u sure?")
+            console.log(conf);
+        })
+    </script>
+</head>
+<body>
+    <h1>
+    I am learning JS
+</h1>
+</body>
+</html>
